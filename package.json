@@ -1,0 +1,20 @@
+{
+  "name": "insurance-notification",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  }
+}
