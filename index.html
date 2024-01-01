@@ -1,604 +1,623 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Murugesan - LIC Agent</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
 
-    <!-- Favicon -->
-    <link href="img/LIC-Logo-pngLIC-Logo-Vector.png" rel="icon" />
+<head>
+  <meta charset="utf-8" />
+  <title>Murugesan - LIC Agent</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicon -->
+  <link href="img/LIC-Logo-pngLIC-Logo-Vector.png" rel="icon" />
 
-    <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet" />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <body>
-    <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div class="spinner-grow text-primary" role="status"></div>
-    </div>
-    <!-- Spinner End -->
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
 
-    <!-- Topbar Start -->
-    <div
-      class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block"
-    >
-      <div class="row gx-0 align-items-center">
-        <div class="col-lg-7 px-5 text-start">
-          <div class="h-100 d-inline-flex align-items-center me-4">
-            <small class="fa fa-home me-2"></small>
-            <small>Your Street, Your City</small>
-            <!-- Add your address here -->
-          </div>
-          <div class="h-100 d-inline-flex align-items-center me-4">
-            <small class="fa fa-phone-alt me-2"></small>
-            <small>+91 94433 93842</small>
-          </div>
-          <div class="h-100 d-inline-flex align-items-center me-4">
-            <small class="far fa-envelope-open me-2"></small>
-            <small>info@example.com</small>
-          </div>
-          <div class="h-100 d-inline-flex align-items-center me-4">
-            <small class="far fa-clock me-2"></small>
-            <small>Mon - Fri : 09 AM - 09 PM</small>
-          </div>
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" role="status"></div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Topbar Start -->
+  <div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+    <div class="row gx-0 align-items-center">
+      <div class="col-lg-7 px-5 text-start">
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="fa fa-home me-2"></small>
+          <small>Your Street, Your City</small>
+          <!-- Add your address here -->
         </div>
-        <div class="col-lg-5 px-5 text-end">
-          <div class="h-100 d-inline-flex align-items-center">
-            <a class="text-white-50 ms-4" href=""
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a class="text-white-50 ms-4" href=""
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a class="text-white-50 ms-4" href=""
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="text-white-50 ms-4" href=""
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </div>
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="fa fa-phone-alt me-2"></small>
+          <small>+91 94433 93842</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="far fa-envelope-open me-2"></small>
+          <small>info@example.com</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="far fa-clock me-2"></small>
+          <small>Mon - Fri : 09 AM - 09 PM</small>
+        </div>
+      </div>
+      <div class="col-lg-5 px-5 text-end">
+        <div class="h-100 d-inline-flex align-items-center">
+          <a class="text-white-50 ms-4" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="fab fa-twitter"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="fab fa-linkedin-in"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </div>
-    <!-- Topbar End -->
+  </div>
+  <!-- Topbar End -->
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h1 class="m-0">
-                <img class="img-fluid me-3" src="img/lic.png" alt="" />
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+      <h1 class="m-0">
+        <img class="img-fluid me-3" src="img/lic.png" alt="" />
+      </h1>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
+        <a href="index.html" class="nav-item nav-link active" data-i18n="home">Home</a>
+        <a href="about.html" class="nav-item nav-link" data-i18n="about_us">About Us</a>
+        <a href="service.html" class="nav-item nav-link" data-i18n="our_services">Our Services</a>
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="pages">Pages</a>
+          <div class="dropdown-menu bg-light border-0 m-0">
+            <a href="feature.html" class="dropdown-item" data-i18n="features">Features</a>
+            <a href="appointment.html" class="dropdown-item" data-i18n="appointment">Appointment</a>
+            <a href="team.html" class="dropdown-item" data-i18n="team_members">Team Members</a>
+            <a href="testimonial.html" class="dropdown-item" data-i18n="testimonial">Testimonial</a>
+            <a href="404.html" class="dropdown-item" data-i18n="404_page">404 Page</a>
+          </div>
+        </div>
+        <a href="contact.html" class="nav-item nav-link" data-i18n="contact_us">Contact Us</a>
+      </div>
+    </div>
+    <select id="language-selector" onchange="changeLanguage(this.value)">
+      <option value="en">English</option>
+      <option value="ta">Tamil</option>
+    </select>
+
+    <a href="" class="btn btn-primary px-3 d-none d-lg-block" lng-tag="get_a_quote">Get A Quote</a>
+  </nav>
+
+  <!-- Navbar End -->
+
+  <!-- Carousel Start -->
+  <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="img/img5.1.jpg" alt="Image" />
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <h1 class="display-3 text-dark mb-4 animated slideInDown" data-i18n="insurance_creates_wealth">
+                    Insurance That Creates Wealth For Everyone</h1>
+                  <p class="fs-5 text-body mb-5" data-i18n="carousel_text1">
+                    Protecting your assets and securing your future with our comprehensive insurance solutions
+                  </p>
+                  <a href="" class="btn btn-primary py-3 px-5" data-i18n="more_details">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="img/img3.jpeg" alt="Image" />
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <h1 class="display-3 text-dark mb-4 animated slideInDown" data-i18n="best_insurance_begins_here">The
+                    Best Insurance Begins Here</h1>
+                  <p class="fs-5 text-body mb-5" data-i18n="carousel_text2">
+                    Find the best insurance coverage tailored to your needs.
+                  </p>
+                  <a href="" class="btn btn-primary py-3 px-5" data-i18n="more_details">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden" data-i18n="previous">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden" data-i18n="next">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Carousel End -->
+
+  <!-- About Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
+            <img class="position-absolute w-100 h-100" src="img/img3.jpeg" alt="" style="object-fit: cover" />
+            <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3" style="width: 200px; height: 200px">
+              <div class="d-flex flex-column justify-content-center text-center bg-primary rounded h-100 p-3">
+                <h1 class="text-white mb-0" data-i18n="experience_years">25</h1>
+                <h2 class="text-white" data-i18n="experience_years_label">Years</h2>
+                <h5 class="text-white mb-0" data-i18n="experience_description">Experience</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="h-100">
+            <h1 class="display-6 mb-5" data-i18n="assist_heading">We're Here To Assist You With Exploring Protection
             </h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active" data-i18n="home">Home</a>
-                <a href="about.html" class="nav-item nav-link" data-i18n="about_us">About Us</a>
-                <a href="service.html" class="nav-item nav-link" data-i18n="our_services">Our Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="pages">Pages</a>
-                    <div class="dropdown-menu bg-light border-0 m-0">
-                        <a href="feature.html" class="dropdown-item" data-i18n="features">Features</a>
-                        <a href="appointment.html" class="dropdown-item" data-i18n="appointment">Appointment</a>
-                        <a href="team.html" class="dropdown-item" data-i18n="team_members">Team Members</a>
-                        <a href="testimonial.html" class="dropdown-item" data-i18n="testimonial">Testimonial</a>
-                        <a href="404.html" class="dropdown-item" data-i18n="404_page">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link" data-i18n="contact_us">Contact Us</a>
-            </div>
-        </div>
-        <select id="language-selector" onchange="changeLanguage(this.value)">
-          <option value="en">English</option>
-          <option value="ta">Tamil</option>
-        </select>
-    
-        <a href="" class="btn btn-primary px-3 d-none d-lg-block" lng-tag="get_a_quote">Get A Quote</a>
-    </nav>
-    
-    <!-- Navbar End -->
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="w-100" src="img/img5.1.jpg" alt="Image" />
-            <div class="carousel-caption">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12 col-lg-6">
-                    <h1 class="display-3 text-dark mb-4 animated slideInDown" data-i18n="insurance_creates_wealth">Insurance That Creates Wealth For Everyone</h1>
-                    <p class="fs-5 text-body mb-5" data-i18n="carousel_text1">
-                      Protecting your assets and securing your future with our comprehensive insurance solutions
-                    </p>
-                    <a href="" class="btn btn-primary py-3 px-5" data-i18n="more_details">More Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="w-100" src="img/img3.jpeg" alt="Image" />
-            <div class="carousel-caption">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12 col-lg-6">
-                    <h1 class="display-3 text-dark mb-4 animated slideInDown" data-i18n="best_insurance_begins_here">The Best Insurance Begins Here</h1>
-                    <p class="fs-5 text-body mb-5" data-i18n="carousel_text2">
-                      Find the best insurance coverage tailored to your needs.
-                    </p>
-                    <a href="" class="btn btn-primary py-3 px-5" data-i18n="more_details">More Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden" data-i18n="previous">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden" data-i18n="next">Next</span>
-        </button>
-      </div>
-    </div>
-    
-    <!-- Carousel End -->
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
-              <img class="position-absolute w-100 h-100" src="img/img3.jpeg" alt="" style="object-fit: cover" />
-              <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3" style="width: 200px; height: 200px">
-                <div class="d-flex flex-column justify-content-center text-center bg-primary rounded h-100 p-3">
-                  <h1 class="text-white mb-0" data-i18n="experience_years">25</h1>
-                  <h2 class="text-white" data-i18n="experience_years_label">Years</h2>
-                  <h5 class="text-white mb-0" data-i18n="experience_description">Experience</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="h-100">
-              <h1 class="display-6 mb-5" data-i18n="assist_heading">We're Here To Assist You With Exploring Protection</h1>
-              <p class="fs-5 text-primary mb-4" data-i18n="join_lic_family">JOIN 25 CRORE+ LIC FAMILY TODAY FOR A SECURE FUTURE TOMORROW</p>
-              <div class="row g-4 mb-4">
-                <div class="col-sm-6">
-                  <div class="d-flex align-items-center">
-                    <img class="flex-shrink-0 me-3" src="img/icon/icon-04-primary.png" alt="" />
-                    <h5 class="mb-0" data-i18n="flexible_insurance_plans">Flexible Insurance Plans</h5>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="d-flex align-items-center">
-                    <img class="flex-shrink-0 me-3" src="img/icon/icon-03-primary.png" alt="" />
-                    <h5 class="mb-0" data-i18n="money_back_guarantee">Money Back Guarantee</h5>
-                  </div>
-                </div>
-              </div>
-              <p class="mb-4" data-i18n="tempor_erat_description">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-              </p>
-              <div class="border-top mt-4 pt-4">
+            <p class="fs-5 text-primary mb-4" data-i18n="join_lic_family">JOIN 25 CRORE+ LIC FAMILY TODAY FOR A SECURE
+              FUTURE TOMORROW</p>
+            <div class="row g-4 mb-4">
+              <div class="col-sm-6">
                 <div class="d-flex align-items-center">
-                  <img class="flex-shrink-0 rounded-circle me-3" src="img/small45x45.jpg" alt="" />
-                  <h5 class="mb-0" data-i18n="call_us_label">Call Us:9443393842</h5>
+                  <img class="flex-shrink-0 me-3" src="img/icon/icon-04-primary.png" alt="" />
+                  <h5 class="mb-0" data-i18n="flexible_insurance_plans">Flexible Insurance Plans</h5>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <img class="flex-shrink-0 me-3" src="img/icon/icon-03-primary.png" alt="" />
+                  <h5 class="mb-0" data-i18n="money_back_guarantee">Money Back Guarantee</h5>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- About End -->
-
-    <!-- Facts Start -->
-<div class="container-fluid overflow-hidden my-5 px-lg-0">
-  <div class="container facts px-lg-0">
-    <div class="row g-0 mx-lg-0">
-      <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
-        <div class="h-100 px-4 ps-lg-0">
-          <h1 class="text-white mb-4" data-i18n="individuals_organisations_heading">For Individuals And Organisations</h1>
-          <p class="text-light mb-5" data-i18n="individuals_organisations_text">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-            sed stet lorem sit clita duo justo magna dolore erat amet
-          </p>
-          <a href="" class="align-self-start btn btn-secondary py-3 px-5" data-i18n="more_details_btn"
-            >More Details</a
-          >
-        </div>
-      </div>
-      <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
-        <div class="h-100 px-4 pe-lg-0">
-          <div class="row g-5">
-            <div class="col-sm-6">
-              <h1 class="display-5" data-toggle="counter-up" >2500</h1>
-              <p class="fs-5 text-primary" data-i18n="total_policy">Total Policy</p>
-            </div>
-            <div class="col-sm-6">
-              <h1 class="display-5" data-toggle="counter-up">1000</h1>
-              <p class="fs-5 text-primary" data-i18n="policy_succeed">Policy Succeed</p>
-            </div>
-            <div class="col-sm-6">
-              <h1 class="display-5" data-toggle="counter-up" >12</h1>
-              <p class="fs-5 text-primary" data-i18n="mdrt_awards_achieved">Mdrt Awards Achieved</p>
-            </div>
-            <div class="col-sm-6">
-              <h1 class="display-5" data-toggle="counter-up" >16</h1>
-              <p class="fs-5 text-primary" data-i18n="agents">Agents</p>
+            <p class="mb-4" data-i18n="tempor_erat_description">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+              Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+            </p>
+            <div class="border-top mt-4 pt-4">
+              <div class="d-flex align-items-center">
+                <img class="flex-shrink-0 rounded-circle me-3" src="img/small45x45.jpg" alt="" />
+                <h5 class="mb-0" data-i18n="call_us_label">Call Us:9443393842</h5>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-    <!-- Facts End -->
+  <!-- About End -->
 
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="display-6 mb-5" data-i18n="why_lic_heading">Why LIC? Strength that speaks for itself</h1>
-            <p class="mb-4" data-i18n="total_life_funds">
-              Total Life Funds (Rs in Cr)  Financial Year 2021-22
-              
-            </p><b>37,35,759.72</b><br><br>
-            <div class="row g-3">
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                <div class="bg-light rounded h-100 p-3">
-                  <div class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
-                    <img class="align-self-center mb-3" src="img/icon/icon-06-primary.png" alt="" />
-                    <h5>&#x20B9; 4,74,004.61</h5>
-                    <h5 class="mb-0 text-primary" data-i18n="total_premium_income">Total Premium Income</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                <div class="bg-light rounded h-100 p-3">
-                  <div class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
-                    <img class="align-self-center mb-3" src="img/icon/icon-03-primary.png" alt="" />
-                    <h5>&#x20B9; 3,42,576.75</h5>
-                    <h5 class="mb-0 text-primary" data-i18n="payment_to_policyholders">Payment to Policyholders</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                <div class="bg-light rounded h-100 p-3">
-                  <div class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
-                    <img class="align-self-center mb-3" src="img/icon/icon-04-primary.png" alt="" />
-                    <h5>&#x20B9; 40,81,326.41</h5>
-                    <h5 class="mb-0 text-primary" data-i18n="total_life_fund">Total Life Fund</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                <div class="bg-light rounded h-100 p-3">
-                  <div class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
-                    <img class="align-self-center mb-3" src="img/icon/icon-07-primary.png" alt="" />
-                    <h5>&#x20B9; 45,50,571.73</h5>
-                    <h5 class="mb-0 text-primary" data-i18n="total_assets">Total Assets</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px">
-              <img class="position-absolute w-100 h-100" src="img/img7.jpg" alt="" style="object-fit: cover" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Features End -->
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="text-center mx-auto" style="max-width: 500px">
-          <h3 class=" mb-5">
-            "Plant the seeds of a bright future"FEW INFORMATION OF THE POLICYE'S
-          </h3>
-        </div>
-        <div class="row g-4 justify-content-center">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                  <img class="img-fluid" src="img/icon/icon-10-light.png" alt="" />
-                </div>
-                <h4 class="mb-0">1.LIC Jeevan Anand:</h4>
-              </div>
-              <p class="mb-4">
-                Description: This is a traditional endowment plan with a combination of insurance and savings.
-                It offers a death benefit, maturity benefit, and a bonus.
-                <br>
-                Merits: Maturity benefit and a death benefit, bonus accrual,
-                and the option to receive a lump sum or opt for a pension.
-                <br>
-                Drawbacks: Premiums are relatively higher compared to pure term insurance.
-    
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                  <img class="img-fluid" src="img/icon/icon-01-light.png" alt="" />
-                </div>
-                <h4 class="mb-0">2.LIC Jeevan Labh:</h4>
-              </div>
-              <p class="mb-4">
-                Description: A limited premium paying endowment plan with high bonus payouts.
-                The policy term is shorter than the premium paying term.
-                <br>
-                Merits: Attractive loyalty additions, death benefit, and maturity benefit.
-                Limited premium payment term.
-                <br>
-                Drawbacks: The policy term is not as long as some other endowment plans.
-    
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                  <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
-                </div>
-                <h4 class="mb-0">3.LIC New Money Back Plan:</h4>
-              </div>
-              <p class="mb-4">
-                Description: A participating non-linked plan that provides money back at regular intervals,
-                survival benefits, and a maturity benefit.
-                <br>
-                Merits: Periodic liquidity through money-back payouts, maturity benefit, and death benefit.
-                <br>
-                Drawbacks: Lower overall returns compared to some other investment options.
-    
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                  <img class="img-fluid" src="img/icon/icon-08-light.png" alt="" />
-                </div>
-                <h4 class="mb-0">4.LIC Single Premium Endowment Plan:</h4>
-              </div>
-              <p class="mb-4">
-                Description: A single premium, non-linked,
-                with-profit endowment plan offering death and maturity benefits.
-                <br>
-                Merits: One-time premium payment, death benefit, and maturity benefit.
-                <br>
-                Drawbacks: Single premium policies may have a higher upfront cost.
-    
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                  <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
-                </div>
-                <h4 class="mb-0">5.LIC Child Future Plan:</h4>
-              </div>
-              <p class="mb-4">
-                Description: A participating, non-linked,
-                endowment assurance plan for securing a child's future.
-                <br>
-                Merits: Maturity benefit for the child's education or marriage, death benefit, and bonus accrual.
-                <br>
-                Drawbacks: Premiums may be relatively higher, and the policy is tied to specific life events.
-    
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                  <img class="img-fluid" src="img/icon/icon-06-light.png" alt="" />
-                </div>
-                <h4 class="mb-0">6.LIC New Endowment Plan:</h4>
-              </div>
-              <p class="mb-4">
-                Description: A participating, non-linked,
-                endowment plan providing a combination of savings and protection.
-                <br>
-                Merits: Death benefit, maturity benefit, and bonus accrual.
-                <br>
-                Drawbacks: Premiums may be higher compared to term insurance, and returns may be lower compared to other
-                investment options.
-    
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                  <img class="img-fluid" src="img/icon/icon-06-light.png" alt="" />
-                </div>
-                <h4 class="mb-0">7.LIC Tech Term:</h4>
-              </div>
-              <p class="mb-4">
-                Description: A pure term insurance plan with the option of including critical illness and accidental death benefit
-                riders.
-                <br>
-                Merits: Affordable premiums, high coverage amount.
-                <br>
-                Drawbacks: No survival benefits or maturity benefits.
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Service End -->
-
-    <!-- Appointment Start -->
-    <div
-      class="container-fluid appointment my-5 py-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-            <h1 class="display-6 text-white mb-5">
-              We're Award Winning Insurance Company
+  <!-- Facts Start -->
+  <div class="container-fluid overflow-hidden my-5 px-lg-0">
+    <div class="container facts px-lg-0">
+      <div class="row g-0 mx-lg-0">
+        <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
+          <div class="h-100 px-4 ps-lg-0">
+            <h1 class="text-white mb-4" data-i18n="individuals_organisations_heading">For Individuals And Organisations
             </h1>
-            <p class="text-white mb-5">
-              Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
-              stet lorem sit clita duo justo magna dolore erat amet. Tempor erat
-              elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-              diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-              clita duo justo magna.
+            <p class="text-light mb-5" data-i18n="individuals_organisations_text">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+              Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+              sed stet lorem sit clita duo justo magna dolore erat amet
             </p>
-            <div class="bg-white rounded p-3">
-              <div class="d-flex align-items-center bg-primary rounded p-3">
-                <img
-                  class="flex-shrink-0 rounded-circle me-3"
-                  src="img/small45x45.jpg"
-                  alt=""
-                />
-                <h5 class="text-white mb-0">Call Us: +91 94433 93842</h5>
-              </div>
-            </div>
+            <a href="" class="align-self-start btn btn-secondary py-3 px-5" data-i18n="more_details_btn">More
+              Details</a>
           </div>
-          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-            <div class="bg-white rounded p-5">
-              <form>
-                <div class="row g-3">
-                  <div class="col-sm-6">
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="gname"
-                        placeholder="Gurdian Name"
-                      />
-                      <label for="gname">Your Name</label>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-floating">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="gmail"
-                        placeholder="Gurdian Email"
-                      />
-                      <label for="gmail">Your Email</label>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="cname"
-                        placeholder="Child Name"
-                      />
-                      <label for="cname">Your Mobile</label>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="cage"
-                        placeholder="Child Age"
-                      />
-                      <label for="cage">Service Type</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-floating">
-                      <textarea
-                        class="form-control"
-                        placeholder="Leave a message here"
-                        id="message"
-                        style="height: 80px"
-                      ></textarea>
-                      <label for="message">Message</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button class="btn btn-primary py-3 px-5" type="submit">
-                      Get Appointment
-                    </button>
-                  </div>
-                </div>
-              </form>
+        </div>
+        <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
+          <div class="h-100 px-4 pe-lg-0">
+            <div class="row g-5">
+              <div class="col-sm-6">
+                <h1 class="display-5" data-toggle="counter-up">2500</h1>
+                <p class="fs-5 text-primary" data-i18n="total_policy">Total Policy</p>
+              </div>
+              <div class="col-sm-6">
+                <h1 class="display-5" data-toggle="counter-up">1000</h1>
+                <p class="fs-5 text-primary" data-i18n="policy_succeed">Policy Succeed</p>
+              </div>
+              <div class="col-sm-6">
+                <h1 class="display-5" data-toggle="counter-up">12</h1>
+                <p class="fs-5 text-primary" data-i18n="mdrt_awards_achieved">Mdrt Awards Achieved</p>
+              </div>
+              <div class="col-sm-6">
+                <h1 class="display-5" data-toggle="counter-up">16</h1>
+                <p class="fs-5 text-primary" data-i18n="agents">Agents</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Appointment End -->
+  </div>
 
-    <!-- Team Start -->
-    <!-- <div class="container-xxl py-5">
+  <!-- Facts End -->
+
+  <!-- Features Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <h1 class="display-6 mb-5" data-i18n="why_lic_heading">Why LIC? Strength that speaks for itself</h1>
+          <p class="mb-4" data-i18n="total_life_funds">
+            Total Life Funds (Rs in Cr) Financial Year 2021-22
+
+          </p><b>37,35,759.72</b><br><br>
+          <div class="row g-3">
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+              <div class="bg-light rounded h-100 p-3">
+                <div class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
+                  <img class="align-self-center mb-3" src="img/icon/icon-06-primary.png" alt="" />
+                  <h5>&#x20B9; 4,74,004.61</h5>
+                  <h5 class="mb-0 text-primary" data-i18n="total_premium_income">Total Premium Income</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+              <div class="bg-light rounded h-100 p-3">
+                <div class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
+                  <img class="align-self-center mb-3" src="img/icon/icon-03-primary.png" alt="" />
+                  <h5>&#x20B9; 3,42,576.75</h5>
+                  <h5 class="mb-0 text-primary" data-i18n="payment_to_policyholders">Payment to Policyholders</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+              <div class="bg-light rounded h-100 p-3">
+                <div class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
+                  <img class="align-self-center mb-3" src="img/icon/icon-04-primary.png" alt="" />
+                  <h5>&#x20B9; 40,81,326.41</h5>
+                  <h5 class="mb-0 text-primary" data-i18n="total_life_fund">Total Life Fund</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+              <div class="bg-light rounded h-100 p-3">
+                <div class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
+                  <img class="align-self-center mb-3" src="img/icon/icon-07-primary.png" alt="" />
+                  <h5>&#x20B9; 45,50,571.73</h5>
+                  <h5 class="mb-0 text-primary" data-i18n="total_assets">Total Assets</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px">
+            <img class="position-absolute w-100 h-100" src="img/img7.jpg" alt="" style="object-fit: cover" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features End -->
+
+  <!-- Service Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.3s" style="max-width: 500px">
+        <h3 class="mb-5" data-i18n="bright_future_title">
+          "Plant the seeds of a bright future"FEW INFORMATION OF THE POLICYE'S
+        </h3>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="service-item rounded h-100 p-5">
+            <div class="d-flex align-items-center ms-n5 mb-4">
+              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                <img class="img-fluid" src="img/icon/icon-10-light.png" alt="" />
+              </div>
+              <h4 class="mb-0" data-i18n="service_1_title">1.LIC Jeevan Anand:</h4>
+            </div>
+            <div class="mb-4">
+              <h6 class="fw-bold" data-i18n="description_label">Description:</h6>
+              <p class="mb-0" data-i18n="service_1_description">
+                This is a traditional endowment plan with a combination of insurance and savings.
+                It offers a death benefit, maturity benefit, and a bonus.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="merits_label">Merits:</h6>
+              <p class="mb-0" data-i18n="service_1_merits">
+                Maturity benefit and a death benefit, bonus accrual,
+                and the option to receive a lump sum or opt for a pension.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="drawbacks_label">Drawbacks:</h6>
+              <p class="mb-0" data-i18n="service_1_drawbacks">
+                Premiums are relatively higher compared to pure term insurance.
+              </p>
+            </div>
+        
+            <a class="btn btn-light px-3" href="" data-i18n="read_more_label">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="service-item rounded h-100 p-5">
+            <div class="d-flex align-items-center ms-n5 mb-4">
+              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                <img class="img-fluid" src="img/icon/icon-01-light.png" alt="" />
+              </div>
+              <h4 class="mb-0" data-i18n="service_2_title">2.LIC Jeevan Labh:</h4>
+            </div>
+            <div class="mb-4">
+              <h6 class="fw-bold" data-i18n="description_label">Description:</h6>
+              <p class="mb-0" data-i18n="service_2_description">
+                A limited premium paying endowment plan with high bonus payouts.
+                The policy term is shorter than the premium paying term.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="merits_label">Merits:</h6>
+              <p class="mb-0" data-i18n="service_2_merits">
+                Attractive loyalty additions, death benefit, and maturity benefit.
+                Limited premium payment term.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="drawbacks_label">Drawbacks:</h6>
+              <p class="mb-0" data-i18n="service_2_drawbacks">
+                The policy term is not as long as some other endowment plans.
+              </p>
+            </div>
+        
+            <a class="btn btn-light px-3" href="" data-i18n="read_more_label">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="service-item rounded h-100 p-5">
+            <div class="d-flex align-items-center ms-n5 mb-4">
+              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
+              </div>
+              <h4 class="mb-0" data-i18n="service_3_title">3. LIC New Money Back Plan:</h4>
+            </div>
+            <div class="mb-4">
+              <h6 class="fw-bold" data-i18n="description_label">Description:</h6>
+              <p class="mb-0" data-i18n="service_3_description">
+                A participating non-linked plan that provides money back at regular intervals, survival benefits, and a maturity benefit.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="merits_label">Merits:</h6>
+              <p class="mb-0" data-i18n="service_3_merits">
+                Periodic liquidity through money-back payouts, maturity benefit, and death benefit.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="drawbacks_label">Drawbacks:</h6>
+              <p class="mb-0" data-i18n="service_3_drawbacks">
+                Lower overall returns compared to some other investment options.
+              </p>
+            </div>
+        
+            <a class="btn btn-light px-3" href="" data-i18n="read_more_label">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+          <div class="service-item rounded h-100 p-5">
+            <div class="d-flex align-items-center ms-n5 mb-4">
+              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                <img class="img-fluid" src="img/icon/icon-08-light.png" alt="" />
+              </div>
+              <h4 class="mb-0" data-i18n="service_4_title">4. LIC Single Premium Endowment Plan:</h4>
+            </div>
+            <div class="mb-4">
+              <h6 class="fw-bold" data-i18n="description_label">Description:</h6>
+              <p class="mb-0" data-i18n="service_4_description">
+                A single premium, non-linked, with-profit endowment plan offering death and maturity benefits.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="merits_label">Merits:</h6>
+              <p class="mb-0" data-i18n="service_4_merits">
+                One-time premium payment, death benefit, and maturity benefit.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="drawbacks_label">Drawbacks:</h6>
+              <p class="mb-0" data-i18n="service_4_drawbacks">
+                Single premium policies may have a higher upfront cost.
+              </p>
+            </div>
+        
+            <a class="btn btn-light px-3" href="" data-i18n="read_more_label">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="service-item rounded h-100 p-5">
+            <div class="d-flex align-items-center ms-n5 mb-4">
+              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
+              </div>
+              <h4 class="mb-0" data-i18n="service_5_title">5. LIC Child Future Plan:</h4>
+            </div>
+            <div class="mb-4">
+              <h6 class="fw-bold" data-i18n="description_label">Description:</h6>
+              <p class="mb-0" data-i18n="service_5_description">
+                A participating, non-linked, endowment assurance plan for securing a child's future.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="merits_label">Merits:</h6>
+              <p class="mb-0" data-i18n="service_5_merits">
+                Maturity benefit for the child's education or marriage, death benefit, and bonus accrual.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="drawbacks_label">Drawbacks:</h6>
+              <p class="mb-0" data-i18n="service_5_drawbacks">
+                Premiums may be relatively higher, and the policy is tied to specific life events.
+              </p>
+            </div>
+        
+            <a class="btn btn-light px-3" href="" data-i18n="read_more_label">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="service-item rounded h-100 p-5">
+            <div class="d-flex align-items-center ms-n5 mb-4">
+              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="" />
+              </div>
+              <h4 class="mb-0" data-i18n="service_6_title">6. LIC New Endowment Plan:</h4>
+            </div>
+            <div class="mb-4">
+              <h6 class="fw-bold" data-i18n="description_label">Description:</h6>
+              <p class="mb-0" data-i18n="service_6_description">
+                A participating, non-linked, endowment plan providing a combination of savings and protection.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="merits_label">Merits:</h6>
+              <p class="mb-0" data-i18n="service_6_merits">
+                Death benefit, maturity benefit, and bonus accrual.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="drawbacks_label">Drawbacks:</h6>
+              <p class="mb-0" data-i18n="service_6_drawbacks">
+                Premiums may be higher compared to term insurance, and returns may be lower compared to other investment options.
+              </p>
+            </div>
+        
+            <a class="btn btn-light px-3" href="" data-i18n="read_more_label">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" >
+          <div class="service-item rounded h-100 p-5">
+            <div class="d-flex align-items-center ms-n5 mb-4">
+              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="" />
+              </div>
+              <h4 class="mb-0" data-i18n="service_7_title">7. LIC Tech Term:</h4>
+            </div>
+            <div class="mb-4">
+              <h6 class="fw-bold" data-i18n="description_label">Description:</h6>
+              <p class="mb-0" data-i18n="service_7_description">
+                A pure term insurance plan with the option of including critical illness and accidental death benefit riders.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="merits_label">Merits:</h6>
+              <p class="mb-0" data-i18n="service_7_merits">
+                Affordable premiums, high coverage amount.
+              </p>
+        
+              <h6 class="fw-bold mt-4" data-i18n="drawbacks_label">Drawbacks:</h6>
+              <p class="mb-0" data-i18n="service_7_drawbacks">
+                No survival benefits or maturity benefits.
+              </p>
+            </div>
+        
+            <a class="btn btn-light px-3" href="" data-i18n="read_more_label">Read More</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Service End -->
+
+  <!-- Appointment Start -->
+  <div class="container-fluid appointment my-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+          <h1 class="display-6 text-white mb-5">
+            We're Award Winning Insurance Company
+          </h1>
+          <p class="text-white mb-5">
+            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
+            stet lorem sit clita duo justo magna dolore erat amet. Tempor erat
+            elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+            clita duo justo magna.
+          </p>
+          <div class="bg-white rounded p-3">
+            <div class="d-flex align-items-center bg-primary rounded p-3">
+              <img class="flex-shrink-0 rounded-circle me-3" src="img/small45x45.jpg" alt="" />
+              <h5 class="text-white mb-0">Call Us: +91 94433 93842</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="bg-white rounded p-5">
+            <form>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
+                    <label for="gname">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="gmail" placeholder="Gurdian Email" />
+                    <label for="gmail">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="cname" placeholder="Child Name" />
+                    <label for="cname">Your Mobile</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                    <label for="cage">Service Type</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                      style="height: 80px"></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary py-3 px-5" type="submit">
+                    Get Appointment
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Appointment End -->
+
+  <!-- Team Start -->
+  <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto" style="max-width: 500px;">
                 <h1 class="display-6 mb-5">Meet Our Professional Team Members</h1>
@@ -683,10 +702,10 @@
             </div>
         </div>
     </div> -->
-    <!-- Team End -->
+  <!-- Team End -->
 
-    <!-- Testimonial Start -->
-    <!-- <div class="container-xxl py-5">
+  <!-- Testimonial Start -->
+  <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto" style="max-width: 500px;">
                 <h1 class="display-6 mb-5">What They Say About Our Insurance</h1>
@@ -731,66 +750,46 @@
             </div>
         </div>
     </div> -->
-    <!-- Testimonial End -->
+  <!-- Testimonial End -->
 
-    <!-- Footer Start -->
-    <div
-      class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
-            <h3 class="text-white mb-4">
-              <img
-                class="me-3"
-                height="60px"
-                src="img/LIC-Logo-PNG-Vector.png"
-                alt=""
-              />Insurance
-            </h3>
-            <h1 class="text-white mb-4">
-              <img
-                class="img-fluid me-3"
-                src="img/icon/icon-02-light.png"
-                alt=""
-              />Insure
-            </h1>
-            <p>LIC YOUR PARTNER IN EVERY STAGE OF LIFE'S JOURNEY</p>
-            <div class="d-flex pt-2">
-              <a class="btn btn-square me-1" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-square me-1" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-square me-1" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a class="btn btn-square me-0" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-white mb-4">
+            <img class="me-3" height="60px" src="img/LIC-Logo-PNG-Vector.png" alt="" />Insurance
+          </h3>
+          <h1 class="text-white mb-4">
+            <img class="img-fluid me-3" src="img/icon/icon-02-light.png" alt="" />Insure
+          </h1>
+          <p>LIC YOUR PARTNER IN EVERY STAGE OF LIFE'S JOURNEY</p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Address</h5>
-            <p>
-              <i class="fa fa-map-marker-alt me-3"></i>Poonga
-              Street,ThiruNagar<br />
-              Tamil Nadu ,625006.
-            </p>
-            <p><i class="fa fa-phone-alt me-3"></i>+91 94433 93842</p>
-            <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Quick Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <!-- <div class="col-lg-3 col-md-6">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Address</h5>
+          <p>
+            <i class="fa fa-map-marker-alt me-3"></i>Poonga
+            Street,ThiruNagar<br />
+            Tamil Nadu ,625006.
+          </p>
+          <p><i class="fa fa-phone-alt me-3"></i>+91 94433 93842</p>
+          <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Quick Links</h5>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Our Services</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <a class="btn btn-link" href="">Support</a>
+        </div>
+        <!-- <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Newsletter</h5>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
@@ -798,37 +797,36 @@
                         <button type="button" class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div> -->
-        </div>
       </div>
-      <div class="container-fluid copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a href="#">Kalai</a>, All Right Reserved.
-            </div>
+    </div>
+    <div class="container-fluid copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a href="#">Kalai</a>, All Right Reserved.
           </div>
         </div>
       </div>
     </div>
-    <!-- Footer End -->
+  </div>
+  <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script>
-        var languageTranslator = new LanguageTranslator();
-    </script>
-  </body>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+  <script>
+    var languageTranslator = new LanguageTranslator();
+  </script>
+</body>
+
 </html>
