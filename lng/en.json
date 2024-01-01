@@ -77,5 +77,19 @@
   "service_7_description": "A pure term insurance plan with the option of including critical illness and accidental death benefit riders.",
   "service_7_merits": "Affordable premiums, high coverage amount.",
   "service_7_drawbacks": "No survival benefits or maturity benefits.",
-  "bright_future_title": "\"Plant the seeds of a bright future\" FEW INFORMATION OF THE POLICYE'S"
+  "bright_future_title": "\"Plant the seeds of a bright future\" FEW INFORMATION OF THE POLICYE'S",
+    "award_winning_title": "We're Award Winning Insurance Company",
+    "award_winning_description": "LIC recognized with awards for providing excellent insurance services. With years of experience, These awards highlight our dedication to excellence and our goal of securing the financial future of our policyholders. LIC is a trusted name, helping people and families face life's uncertainties with confidence.",
+    "call_us_label": "Call Us: +91 94433 93842",
+  "your_name": "Your Name",
+  "your_name_label": "Your Name",
+  "your_email": "Your Email",
+  "your_email_label": "Your Email",
+  "child_name": "Child Name",
+  "child_name_label": "Your Mobile",
+  "child_age": "Child Age",
+  "child_age_label": "Service Type",
+  "leave_message": "Leave a message here",
+  "message_label": "Message",
+  "get_appointment": "Get Appointment"
 }
